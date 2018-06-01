@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Prova Testo Titolo</h1>
+    </header>
+    <div class="MenuSuperiore">
+        <a href="Index.html">Home</a>
+        <a href="">LinkTestuale</a>
+        <a href="">LinkTestuale</a>
+        <a href="Contatti.html">Contatti</a>
+        <a class="login" href="Login.html">Login</a>
+
+    </div>
+    <form action="post">
+        <div>
+            <label for="Nome">Nome</label>
+            <input class="campi" type="text" name="Nome" placeholder="Inserisci Nome" pattern=".{3,}" required>
+        </div>
+        <div>
+
+            <label for="Surname">Cognome</label>
+            <input class="campi" type="text" name="FirstName" placeholder="Inserisci Cognome" pattern=".{3,}" required/>
+        </div>
+        <div>
+
+            <label for="DataNascita">Data di Nascita</label>
+            <input class="campi" type="date" name="DataNascita" required/>
+        </div>
+        <div>
+
+            <label for="Email">Email</label>
+            <input class="campi" type="email" name="Email" placeholder="@" required/>
+        </div>
+        <div>
+
+            <label class="login" for="Password">Password</label>
+            <input class="campi" type="password" name="Password" pattern=".{6,20}" required/>
+        </div>
+        <div>
+            <label for="Privacy">Accettazione della privacy</label>
+            <input type="checkbox" name="privacy" required/>
+        </div>
+        <input type="submit" value="Invia il form">
+    </form>
+</body>
+
+</html>

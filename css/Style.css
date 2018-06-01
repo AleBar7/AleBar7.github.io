@@ -1,0 +1,59 @@
+            * {
+                font-family: 'Abel', sans-serif;
+            }
+            
+            header {
+                background-color: #8b979c;
+                height: 100px;
+                font-size: 24px;
+                margin-top: 0px;
+                padding-top: 0px;
+                border-top: 0px
+            }
+            
+            body {
+                background-color: #9fa7ab;
+            }
+            
+            .MenuSuperiore {
+                width: 100%;
+                display: inline-block;
+                background-color: #9fa7ab;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+            
+            div a {
+                background-color: #8b979c;
+                text-decoration: solid;
+                color: black;
+                font-size: 20px;
+            }
+            
+            .login {
+                display: inline-block;
+                right: 20px;
+            }
+            
+            .campi {
+                width: 60%
+            }
+            
+            .bottoni {
+                border: #8b979c 3px outset;
+                border-radius: 30%;
+            }
+            
+            .corpo {
+                display: inline-block;
+                margin-top: 5px
+            }
+            
+            .labelForm {
+                width: 20%;
+                display: inline-block;
+            }
+            
+            .formitem {
+                margin-bottom: 25px;
+            }
